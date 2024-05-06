@@ -16,12 +16,26 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
+    background-color: #007bff;
+    color: #fff;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
 
 header h1 {
-    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic;
 }
 
 /* Estilos para as seções */
@@ -29,32 +43,21 @@ section {
     margin-bottom: 30px;
 }
 
-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+/* Estilos para o elenco */
+.elenco {
+    list-style: none;
+    padding-left: 0;
 }
 
-section p {
-    font-size: 1em;
-}
-
-/* Estilos para a lista de atores */
-ul {
-    list-style-type: none;
-}
-
-ul li {
+.elenco li {
     margin-bottom: 5px;
 }
 
 /* Estilos para o rodapé */
 footer {
+    background-color: #f8f9fa;
     text-align: center;
-    margin-top: 20px;
-}
-
-footer p {
-    font-size: 0.8em;
+    padding: 20px;
 }
 footer {
     background-color: #333; /* Cor de fundo do rodapé */
